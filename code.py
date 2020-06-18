@@ -23,7 +23,7 @@ def getTweet (user_name):
         tweetText = tweetInfo.get('text')
         tweetList.append(tweetText)
 
-#ADD IN TAGS TO A STATUS, put the tags you want added to the tweet in the quotation marks on line 27
+#ADD IN TAGS TO A STATUS, put the tags you want added to the tweet in the quotation marks on line 29
 def postStatus (tweetList):
     for tweets in tweetList:
         addAt = tweets + ' '
